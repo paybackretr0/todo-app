@@ -7,7 +7,12 @@ use Illuminate\Support\Facades\File;
 
 class TodoController extends Controller
 {
-    private $filePath = 'storage/todos.json';
+    private $filePath;
+
+    public function __construct()
+    {
+        $this->filePath = storage_path('todos.json');
+    }
 
     private function readTodos()
     {
