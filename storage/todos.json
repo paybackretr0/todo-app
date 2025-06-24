@@ -1,0 +1,18 @@
+[
+    {
+        "id": 1,
+        "title": "Belajar Cloud Computing",
+        "description": "Mengerjakan tugas besar komputasi awan",
+        "completed": false,
+        "dueDate": "2025-06-25",
+        "createdAt": "2025-06-16T13:00:00Z"
+    },
+    {
+        "id": 2,
+        "title": "Deploy Backend",
+        "description": "Deploy API ke Compute Engine",
+        "completed": true,
+        "dueDate": "2025-06-20",
+        "createdAt": "2025-06-18T10:30:00Z"
+    }
+]
